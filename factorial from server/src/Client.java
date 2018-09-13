@@ -13,7 +13,7 @@ public class Client {
 		}
 		catch (UnknownHostException e)
 		{
-			System.out.println("Exception caught");
+			System.out.println("*Exception caught*");
 			System.out.println(e);
 		}
 		DatagramSocket clientSocket = new DatagramSocket();
