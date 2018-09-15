@@ -17,7 +17,7 @@ public class Client {
 		}
 		DatagramSocket clientSocket = new DatagramSocket();
 		//System.out.println(address);
-		//System.out.println("Working fine till here after these changes 1 "+ data+"\n");
+		//System.out.println("Working really fine till here after these changes 1 "+ data+"\n");
 		
 		while(true)
 		{
