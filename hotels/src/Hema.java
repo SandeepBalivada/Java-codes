@@ -44,7 +44,7 @@ class hotel extends Frame implements ItemListener,MouseListener
 		c.add("--select type--");
 		c.add("Deluxe Room");
 		c.add("Non-Deluxe Room");
-		l3=new Label("Select Room");
+		l3=new Label("Select room");
 		l3.setBounds(870,200,210,40);
 		l3.setFont(ft2);
 		c.addItemListener(this);
