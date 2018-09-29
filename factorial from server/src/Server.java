@@ -40,7 +40,7 @@ public class Server {
         	//serverSocket.send(sendPacket);
         	if(serverData.equalsIgnoreCase("bye"))
 			{
-				System.out.println("Connection ended by server");
+				System.out.println("Connection ended by the server");
 				break;
 			}
                  serverSocket.send(sendPacket);
