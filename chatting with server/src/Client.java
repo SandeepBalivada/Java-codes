@@ -33,7 +33,7 @@ public class Client {
 			clientSocket.send(sendPacket);
 			if(clientData.equalsIgnoreCase("bye"))
 			{
-				System.out.println("Connection ended by client");
+				System.out.println("Connection ended  by client");
 				break;
 			}
 			
