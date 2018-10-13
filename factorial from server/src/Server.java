@@ -7,7 +7,7 @@ public class Server {
 		DatagramSocket serverSocket = new DatagramSocket(9443);
 		Scanner scan = new Scanner(System.in);
 		//String data = scan.nextLine();
-		//System.out.println("Working fine till here after these changes 1 "+data+"\n");
+		//System.out.println("Working fine till here after these changes 1  "+data+"\n");
        while(true)
         {
         	byte[] receiveBuffer = new byte[1024];
